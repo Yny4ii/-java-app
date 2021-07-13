@@ -13,7 +13,7 @@ public class Db {
             Class.forName("com.mysql.jdbc.Driver");
             String url = "jdbc:mysql://127.0.0.1:3306/javatime";
             String username = "root";
-            String password = "rfrfirf123ilya123semyonov123@mail";
+            String password = "";
             connection = DriverManager.getConnection(url, username, password);
 
 
